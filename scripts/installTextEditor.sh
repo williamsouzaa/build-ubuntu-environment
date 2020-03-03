@@ -15,7 +15,7 @@ function installTextEditor(){
                 echo -e "\n =============== Installing SUBLIME ===============" 
                 sudo snap install sublime-text --classic ;;
             ALL)
-                echo -e "\n =============== Installing SUBLIME ===============" 
+                echo -e "\n =============== Installing ALL ===============" 
                 sudo snap install sublime-text --classic
                 sudo snap install atom --classic
                 sudo snap install code --classic

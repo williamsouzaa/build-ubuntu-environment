@@ -24,7 +24,7 @@ function downloadOptionalSoftwares(){
 
     if [ ${list[4]} = "y" ]; then
         echo -e "\n=================VLC=================\n"
-        sudo snap install -y vlc
+        sudo snap install vlc
     fi
     
     if [ ${list[5]} = "y" ]; then
