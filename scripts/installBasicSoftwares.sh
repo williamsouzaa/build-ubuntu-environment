@@ -1,6 +1,10 @@
 #!/bin/bash
+
+source ./configSourceList.sh
+
 function installBasicSoftwaresAndUpdateSystem() {
 	echo -e "\nWe need your password to update and install new packages..."
+    configSourceList
     sudo apt-get update && sudo apt-get upgrade
 
     echo -e "Install SNAP\n"; 
